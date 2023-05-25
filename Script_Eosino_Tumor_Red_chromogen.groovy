@@ -49,10 +49,6 @@ import static qupath.lib.gui.scripting.QPEx.*
 // Set the model of random forest to detect the tissue
 model_tissu = "detection_tissue"
 
-// Set a detection for eosinophil
-DetectionEosino =  runPlugin('qupath.imagej.detect.cells.PositiveCellDetection', '{"detectionImageBrightfield":"Optical density sum","requestedPixelSizeMicrons":0.5,"backgroundRadiusMicrons":12.0,"backgroundByReconstruction":true,"medianRadiusMicrons":0.0,"sigmaMicrons":1.7,"minAreaMicrons":15.0,"maxAreaMicrons":350.0,"threshold":0.1,"maxBackground":2.0,"watershedPostProcess":true,"excludeDAB":false,"cellExpansionMicrons":3.0,"includeNuclei":true,"smoothBoundaries":true,"makeMeasurements":true,"thresholdCompartment":"Cell: DAB OD mean","thresholdPositive1":0.2,"thresholdPositive2":0.4,"thresholdPositive3":0.6000000000000001,"singleThreshold":true}');
-
-
 // How much to expand each region
 double expandMarginMicrons = 1200
 
