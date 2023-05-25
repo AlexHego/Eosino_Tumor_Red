@@ -12,7 +12,7 @@ The path must be project_folder\classifiers\pixel_classifiers\detection_tissue.j
 
 * Open the script editor on QuPath. "Automate" > " Show script editor" </br>
 * Open the github page of one of the scripts </br>
-[ Script_Eosino_tumor ](https://github.com/AlexHego/Eosino_Tumor/blob/main/Script_Eosino_Tumor.groovy) , BSD-3 licence </br>
+[ Script_Eosino_tumor ](https://github.com/AlexHego/Eosino_Tumor_Red/blob/main/Script_Eosino_Tumor_Red_chromogen.groovy) , BSD-3 licence </br>
 
 * Copy and paste the code in the script editor
 * Then, simply run the script by selecting "run" > "run for project" in QuPath.
